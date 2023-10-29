@@ -17,7 +17,7 @@ set incsearch
 set scrolloff=8
 
 set cursorline
-hi CursorLine cterm=NONE ctermbg=242
+" hi CursorLine cterm=NONE ctermbg=242
 
 set clipboard+=unnamedplus
 
