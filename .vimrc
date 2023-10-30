@@ -21,7 +21,10 @@ set cursorline
 
 set clipboard+=unnamedplus
 
-" colorscheme desert
+" Set colorscheme
+colorscheme everforest
+set background=dark
+
 set nobackup
 
 set whichwrap+=<,>,[,]
