@@ -17,14 +17,11 @@ set incsearch
 set scrolloff=8
 
 set cursorline
-" hi CursorLine cterm=NONE ctermbg=242
+hi CursorLine cterm=NONE ctermbg=242
 
 set clipboard+=unnamedplus
 
-" Set colorscheme
-colorscheme everforest
-set background=dark
-
+" colorscheme desert
 set nobackup
 
 set whichwrap+=<,>,[,]
@@ -72,4 +69,3 @@ vnoremap <C-v> "+p
 nnoremap <C-a> <Esc>ggVG
 inoremap <C-a> <Esc>ggVG
 vnoremap <C-a> <Esc>ggVG
-
