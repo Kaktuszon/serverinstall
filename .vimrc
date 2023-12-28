@@ -1,4 +1,6 @@
 set number
+set laststatus=2
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -17,11 +19,14 @@ set incsearch
 set scrolloff=8
 
 set cursorline
-hi CursorLine cterm=NONE ctermbg=242
+" hi CursorLine cterm=NONE ctermbg=242
 
 set clipboard+=unnamedplus
 
-" colorscheme desert
+" Set colorscheme
+colorscheme everforest
+set background=dark
+
 set nobackup
 
 set whichwrap+=<,>,[,]
