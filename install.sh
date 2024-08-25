@@ -1,5 +1,5 @@
 # Install required packages
-sudo apt install -y wget curl vim htop screen
+sudo apt install -y wget curl vim htop screen inetutils-ping openvswitch-switch
 
 # Download dotfiles
 curl https://raw.githubusercontent.com/Kaktuszon/serverinstall/main/.bashrc > ~/.bashrc
